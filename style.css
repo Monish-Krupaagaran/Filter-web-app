@@ -1,0 +1,21 @@
+canvas {
+
+    animation-name: glitter;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glitter {
+
+    from {
+        box-shadow: 2px 2px 35px black;
+    }
+    to {
+        box-shadow: 2px 2px 35px violet;
+    }
+}
+
+.btn-success:hover {
+
+    background-color:red;
+}
